@@ -13,7 +13,7 @@ class Login extends CI_Controller {
         $this->load->view('_partial/head');
 		$this->load->view('view_login');
 	}
-
+/////kok
     public function loginProcess()
     {
         $username = $this->input->post('username');

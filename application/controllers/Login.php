@@ -7,7 +7,7 @@ class Login extends CI_Controller {
         parent::__construct();
         $this->load->model('LoginModel');
     }
-
+//////
 	public function index()
 	{   
         $this->load->view('_partial/head');
